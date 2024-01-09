@@ -20,7 +20,7 @@
 }
 
 .container {
-  margin: 50px 140px;
+  margin: 50px 140px 0;
 }
 
 /* Header Section */
@@ -311,8 +311,29 @@ line-height: 40px;
 #contact-us {
   display: flex;
   justify-content: space-between;
+  padding-top: 120px ;
+  padding-bottom: 50px;
+  border-bottom: 1px gray solid;
 }
 
 .paddingpx {
   padding-right: 15px;
+}
+#social-media {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding: 48px 0;
+  border-bottom: 1px gray solid;
+}
+#copyrights {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0 120px;
+}
+#copyrights p {
+  color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
 }
